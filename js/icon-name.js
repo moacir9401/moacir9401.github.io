@@ -40,3 +40,11 @@ $('.icon-sheets').ready(function() {
 
     imageSvg('icon-sheets');
 })
+$('.icon-engagement').ready(function() {
+
+    imageSvg('icon-engagement');
+})
+$('.icon-wedding').ready(function() {
+
+    imageSvg('icon-wedding');
+})

@@ -71,3 +71,21 @@ function imageSvg(nameIcon) {
 var marcador = document.createElement('div');
 marcador.setAttribute("id", "marcador");
 $('.uor-story .col-md-6').prepend(marcador);
+
+// ================== Inicio Enviar Email =====================
+jQuery(document).ready(function() {
+    jQuery("#enviar").ajaxStart(function() { jQuery(this).html("Enviando..."); });
+    jQuery('#submit').click(function() {
+        var nome = jQuery('#nome').val();
+        var email = jQuery('#email').val();
+        var assunto = jQuery('#telefone').val();
+        var mensagem = jQuery('#telefone').val();
+        jQuery.post('envia.php', { nome: nome, email: email, assunto: assunto, mensagem: mensagem, contato: true },
+            function(data, textStatus) {
+                jQuery('#enviar').html("Mensagem enviada com sucesso!");
+            });
+        return false;
+    });
+});
+
+// ================== Termino Enviar Email ====================
