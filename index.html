@@ -1,625 +1,319 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>4Life Digital</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/prince.css">
-
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Moacir & Dayane</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/animation.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/moblie.css'>
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body>
 
-
-    <div id="overlayer"></div>
-    <div class="loader">
-        <div class="spinner-border text-primary" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-
-    <div class="site-wrap" id="home-section">
-
-        <div class="site-mobile-menu site-navbar-target">
-            <div class="site-mobile-menu-header">
-                <div class="site-mobile-menu-close mt-3">
-                    <span class="icon-close2 js-menu-toggle"></span>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+        <a class="navbar-brand" href="#">
+            <div class="logo">
+                <span>Moacir & Dayane</span>
             </div>
-            <div class="site-mobile-menu-body"></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item " data-scroll="index">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" data-scroll="NossaHistoria">
+                    <a class="nav-link" href="#">Nossa Historia</a>
+                </li>
+                <li class="nav-item" data-scroll="galeria">
+                    <a class="nav-link" href="#">Galeria</a>
+                </li>
+                <li class="nav-item" data-scroll="Contato">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item" data-scroll="Mensagem">
+                    <a class="nav-link" href="#">Mensagem</a>
+                </li>
+            </ul>
         </div>
-
-
-        <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-6 col-md-3 col-xl-4  d-block">
-                        <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">4Life Digital<span class="text-primary">.</span> </a></h1>
-                    </div>
-
-                    <div class="col-12 col-md-9 col-xl-8 main-menu">
-                        <nav class="site-navigation position-relative text-right" role="navigation">
-
-                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
-                                <li><a href="#home-section" class="nav-link">Inicio</a></li>
-                                <li><a href="#features-section" class="nav-link">Serviços</a></li>
-                                <li class="nav-link">
-                                    <a href="#about-section" class="nav-link">Sobre nós</a>
-                                    <!-- <ul class="dropdown arrow-top">
-                                        <li><a href="#" target="_blank" class="nav-link"><span class="text-primary">More Free Templates</span></a></li>
-                                        <li><a href="#our-team-section" class="nav-link">Nosso time</a></li>
-                                        <li class="has-children">
-                                            <a href="#">More Links</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">Menu One</a></li>
-                                                <li><a href="#">Menu Two</a></li>
-                                                <li><a href="#">Menu Three</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul> -->
-                                </li>
-                                <li><a href="#our-team-section" class="nav-link">Nosso time</a></li>
-                                <li><a href="#contact-section" class="nav-link">Contato</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-
-
-                    <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
-
-                </div>
-            </div>
-
-        </header>
-
-
-        <div class="site-blocks-cover" style="overflow: hidden;">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-
-                    <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
-
-                        <img src="images/undraw_investing_7u74.svg" alt="Image" class="img-fluid img-absolute">
-
-                        <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
-                            <div class="col-lg-6 mr-auto">
-                                <h1>Torne seu negócio mais lucrativo</h1>
-                                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-                                <div>
-                                    <a href="#" class="btn btn-primary mr-2 mb-2">Iniciar</a>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+    </nav>
+    <section class="detalhe not-seletor">
+        <div class="detalhe-fild">
+            <i class="borda top"></i>
+            <span class="title"><p>Seja bem vindo ao nosso site</p>
+        <h2>Moacir & Dayane</h2>
+        <div class="title-description">
+        <p>Já começamos a contagem regressiva para o dia mais esperado de nossas vidas </p>
+        <p>Te convido a compartilhar esse momento conosco <br/>Sua presença fará toda diferença </p>
         </div>
-
-
-        <div class="site-section" id="features-section">
-            <div class="container">
-                <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
-                    <div class="col-7 text-center  mb-5">
-                        <h2 class="section-title">Nossos Serviços</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
-                    </div>
-                </div>
-                <div class="row align-items-stretch">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
-                            </div>
-                            <div>
-                                <h3>Consultoria de Marketing</h3>
-                                <p>Fazemos o gerenciamento e criação de postagens para mídias sociais</p>
-                                <p><a href="#">Veja Mais</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-store_mall_directory"></span></span>
-                            </div>
-                            <div>
-                                <h3>Site Profissional</h3>
-                                <p>Desenvolvemos um site unico para sua empresa</p>
-                                <p><a href="#">Veja Mais</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-camera"></span></span>
-                            </div>
-                            <div>
-                                <h3>Fotografia</h3>
-                                <p>Temos fotografos para tirar as melhores fotos da sua empresa.</p>
-                                <p><a href="#">Veja Mais</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-envelope"></span></span>
-                            </div>
-                            <div>
-                                <h3>E-mail Profissional</h3>
-                                <p>Você tera um email personalizado para o seu negocio</p>
-                                <p><a href="#">Veja Mais</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
-                            </div>
-                            <div>
-                                <h3>SEO</h3>
-                                <p>Otimização de serviço de busca, para você esta sempre no topo dos sites de pesquisa
-                                </p>
-                                <p><a href="#">Veja Mais</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="unit-4 d-block">
-                            <div class="unit-4-icon mb-3">
-                                <span class="icon-wrap"><span class="text-primary icon-sentiment_satisfied"></span></span>
-                            </div>
-                            <div>
-                                <h3>100% Satisfação</h3>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                                <p><a href="#">Veja Mais</a></p> -->
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
+        </span>
+            <ul class="timeLeft">
+                <li><span class="time" id="dia"></span><br>
+                    <span class="description">dia</span></li>
+                <li><span class="time" id="hora"></span><br>
+                    <span class="description">Hora</span></li>
+                <li><span class="time" id="minuto"></span><br>
+                    <span class="description">minuto</span></li>
+                <li><span class="time" id="segundo"></span><br>
+                    <span class="description">segundo</span></li>
+            </ul>
+            <i class="borda down"></i>
+            <i class="reserve"><i><h2  data-scroll="Contato">Confirmar Presença</h2></i></i>
         </div>
-
-        <div class="feature-big">
+    </section>
+    <section class="uor-story not-seletor" id="NossaHistoria">
+        <div class="container gallery-container">
+            <div class="title-body">
+                <i class="icon-birds-heart"></i>
+                <span> Nossa Historia</span>
+            </div>
+            <hr>
             <div class="container">
-                <div class="row mb-5 site-section">
-                    <div class="col-lg-7" data-aos="fade-right">
-                        <img src="images/undraw_gift_card_6ekc.svg" alt="Image" class="img-fluid">
+                <div class="row space-Row">
+                    <div class="col-sm-6 col-md-6">
+                        <i class="icon-romatic02"></i>
                     </div>
-                    <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
-                        <h2 class="text-black">Site Personalizado</h2>
-                        <p class="mb-4">Com o seu site próprio sua empresa terá mais vissabilidade no mercado.</p>
-
-                        <!-- <div class="author-box" data-aos="fade-left">
-                            <div class="d-flex mb-4">
-                                <div class="mr-3">
-                                    <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="mr-auto text-black">
-                                    <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br> Co-Founder, XYZ Inc.
+                    <div class="col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4">
+                                <i class="img-circle img-responsive img-encontro01"></i>
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <div class="description">
+                                    <h2>Nos Conhecendo</h2>
+                                    <h4>Nos conhecemos no trabalho em Outubro de 2014, a principio parecíamos não ter nada a vê, mas como dizem “os opostos se atraem”.</h4>
                                 </div>
                             </div>
-                            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="mt-5 row mb-5 site-section ">
-                    <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
-                        <img src="images/undraw_metrics_gtu7.svg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
-                        <h2 class="text-black">Gerenciamento de desempenho</h2>
-                        <p class="mb-4">Nossos clientes tem acesso ao portal de desenvolvimento, esse portal permite acompanhar o desempenho do seu marketing digital</p>
-
-                        <!-- <div class="author-box" data-aos="fade-right">
-                            <div class="d-flex mb-4">
-                                <div class="mr-3">
-                                    <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="mr-auto text-black">
-                                    <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br> Co-Founder, XYZ Inc.
-                                </div>
-                            </div>
-                            <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?&rdquo;</blockquote>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="mt-5 row mb-5 site-section ">
-                    <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
-                        <br/><br/>
-                        <div class="author-box" data-aos="fade-right">
-                            <div class="d-flex mb-4">
-                                <div class="mr-3">
-                                    <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
-                                </div>
-                                <div class="mr-auto text-black">
-                                    <strong class="font-weight-bold mb-0">Camila Santos</strong> <br> Atendente.
-                                </div>
-                            </div>
-                            <blockquote>&ldquo;Olá <br/> Como posso ajudar ?&rdquo;</blockquote>
                         </div>
                     </div>
-                    <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
-                        <h2 class="text-black">Comunicar e reunir feedback</h2>
-                        <p class="mb-4">Estamos sempre a sua disposição para tirar alguma duvida </p>
+                </div>
+                <div class="row space-Row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8">
+                                <div class="description">
+                                    <h2>Primeiro Beijo</h2>
+                                    <h4>Tivemos nosso primeiro encontro e primeiro Beijo em 19 de Outubro de 2014, mal sabíamos que dai não nos desgrudaríamos mais…..:)</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+                                <i class="img-circle img-responsive img-encontro02"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <i class="icon-romantic"></i>
+                    </div>
+                </div>
+                <div class="row space-Row">
+                    <div class="col-sm-6 col-md-6">
+                        <i class="icon-engagement"></i>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4">
+                                <i class="img-circle img-responsive img-encontro03"></i>
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <div class="description">
+                                    <h2>Noivado</h2>
+                                    <h4>Formalizamos o nosso noivado em 20 de julho de 2019, um momento único é importante para o casal.</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space-Row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="row">
+                            <div class="col-sm-8 col-md-8">
+                                <div class="description">
+                                    <h2>Casamento</h2>
+                                    <h4>E agora ansiosos para o tão sonhado SIM. O tão sonhado dia 17/10/2020.</h4>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+                                <i class="img-circle img-responsive img-encontro04"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <i class="icon-wedding"></i>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="site-section bg-light" id="about-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title mb-3">Sobre nós</h2>
-                        <p class="mb-4">Somos uma Agência de Marketing Digital especializada em Mídias Sociais focada soluções para empresas e marcas de pequeno e médio porte, com o objetivo de alavancar os resultados através de sua divulgação nas plataformas digitais.
-                            O nosso diferencial é disponibilizar serviços com amplas opções para determinados tipos de clientes, como desenvolvimento de sites,com a proposta de ser um cartão de visita e serviços de fotografia.
-                        </p>
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-lg-6" data-aos="fade-right">
-                        <img src="images/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="col-lg-5 ml-auto pl-lg-5">
-                        <h2 class="text-black mb-4 h3 font-weight-bold">Nossa Missão</h2>
-                        <p class="mb-4">Fornecer aos nossos clientes um serviço que possibilite o aumento de seus resultados através das suas mídias sociais <br/> Ser referência em agência de Publicidade Digital, reconhecida pela excelência, qualidade e inovação nos
-                            serviços.
-                        </p>
-                        <!-- <ul class="ul-check mb-5 list-unstyled success">
-                            <li>Laborum enim quasi at modi</li>
-                            <li>Ad at tempore</li>
-                            <li>Labore quaerat esse</li>
-                        </ul>
-                        <p><a href="#" class="btn btn-primary">Learn More</a></p> -->
-                    </div>
-                </div>
-
+    </section>
+    <section class="uor-gallevry not-seletor" id="galeria">
+        <div class="container gallery-container">
+            <div class="title-body">
+                <i class="icon-birds-heart"></i>
+                <span>Nossa Galeria</span>
 
             </div>
-        </div>
-
-        <div class="site-section" id="our-team-section">
-            <div class="container">
-                <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
-                    <div class="col-7 text-center  mb-5">
-                        <h2 class="section-title">Nosso time</h2>
-                        <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p> -->
-                    </div>
-                </div>
+            <div class="tz-gallery">
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="person">
-                            <div class="bio-img">
-                                <figure>
-                                    <img src="images/dayane.jpg" alt="Image" class="img-fluid">
-                                </figure>
-                                <div class="social">
-                                    <a href="#"><span class="icon-facebook"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                </div>
-                            </div>
-                            <h2 class="text-black h1">Dayane Oliveira</h2>
-                            <span class="sub-title d-block mb-3">Financeiro</span>
-                            <p>RH, Elaboração de contratos
-                            </p>
-                        </div>
+                    <div class="col-sm-12 col-md-4">
+                        <a class="lightbox" href="img/slide1.jpg">
+                            <img src="img/slide1.jpg" alt="Park"> </a>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="person">
-                            <div class="bio-img">
-                                <figure>
-                                    <img src="images/ed.jpg" alt="Image" class="img-fluid">
-                                </figure>
-                                <div class="social">
-                                    <a href="#"><span class="icon-facebook"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                </div>
-                            </div>
-                            <h2 class="text-black h1">Ediudson Manduca</h2>
-                            <span class="sub-title d-block mb-3">Marketing</span>
-                            <p>Social Mídia, designer e Fotógrafo</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="person">
-                            <div class="bio-img">
-                                <figure>
-                                    <img src="images/rejiane.jpg" alt="Image" class="img-fluid">
-                                </figure>
-                                <div class="social">
-                                    <a href="#"><span class="icon-facebook"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                </div>
-                            </div>
-                            <h2 class="text-black h1">Rejiane Nascimento</h2>
-                            <span class="sub-title d-block mb-3">Comercial</span>
-                            <p>captação de clientes
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
-                        <div class="person">
-                            <div class="bio-img">
-                                <figure>
-                                    <img src="images/moacir.jpg" alt="Image" class="img-fluid">
-                                </figure>
-                                <div class="social">
-                                    <a href="#"><span class="icon-facebook"></span></a>
-                                    <a href="#"><span class="icon-twitter"></span></a>
-                                    <a href="#"><span class="icon-instagram"></span></a>
-                                </div>
-                            </div>
-                            <h2 class="text-black h1">Moacir Afonso</h2>
-                            <span class="sub-title d-block mb-3">Programador</span>
-                            <p>Desenvolvedor de sites </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="site-section" id="price-table-section">
-            <div class="container">
-                <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
-                    <div class="col-12 text-center  mb-5">
-                        <h2 class="section-title">Nossos Preços</h2>
-                        <div>
-                            <!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p> -->
-                        </div>
-                    </div>
-                    <div class="container">
+                    <div class="col-sm-12 col-md-8">
                         <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="pricingTable">
-                                    <div class="pricingTable-header">
-                                        <h3 class="title">BUSINESS</h3>
-                                    </div>
-                                    <ul class="pricing-content">
-                                        <li>Gestão e gerenciamento de uma mídia social.</li>
-                                        <li>Criação de até dois posts (artes) por semana na mídia social escolhida. </li>
-                                        <li>Relatória mensal de desempenho.</li>
-                                        <li class="disable">Monitóramento diário dos perfis.</li>
-                                        <li class="disable">Relatório mensal de resultados das mídias socias.</li>
-                                        <li class="disable">Auxílio da fotografia.</li>
-                                        <li class="disable">Email Profissional.</li>
-                                        <li class="disable">Site Profissional.</li>
-                                        <li class="disable">Otimização de serviço de busca.</li>
-                                        <li class="disable">Criação de um vídeo Institucional mensal.</li>
-                                        <li class="disable">Planejamento de marketing de conteúdo.</li>
-                                    </ul>
-                                    <div class="price-value">
-                                        <span class="price-title">Preço <b>de</b></span>
-                                        <span class="price-amount"> R$ 620,00 <span class="duration">por mês</span></span>
-                                    </div>
-                                    <div class="pricingTable-signup">
-                                        <a href="#">Veja Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="pricingTable green">
-                                    <div class="pricingTable-header">
-                                        <h3 class="title">PRO</h3>
-                                    </div>
-                                    <ul class="pricing-content">
-                                        <li>Gestão e gerenciamento de uma mídia social.</li>
-                                        <li>Criação de até dois posts (artes) por semana. </li>
-                                        <li>Relatória mensal de desempenho.</li>
-                                        <li>Monitóramento diário dos perfis.</li>
-                                        <li>Relatório mensal de resultados das mídias socias.</li>
-                                        <li>Auxílio da fotografia.</li>
-                                        <li>Email Profissional.</li>
-                                        <li>Site Profissional.</li>
-                                        <li class="disable">Otimização de serviço de busca.</li>
-                                        <li class="disable">Criação de um vídeo Institucional mensal.</li>
-                                        <li class="disable">Planejamento de marketing de conteúdo.</li>
-                                    </ul>
-                                    </ul>
-                                    <div class="price-value">
-                                        <span class="price-title">Preço <b>de</b></span>
-                                        <span class="price-amount"> R$ 1.210,00<span class="duration">por mês</span></span>
-                                    </div>
-                                    <div class="pricingTable-signup">
-                                        <a href="#">Veja Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="pricingTable red">
-                                    <div class="pricingTable-header">
-                                        <h3 class="title">PREMIUM</h3>
-                                    </div>
-                                    <ul class="pricing-content">
-                                        <li>Gestão e gerenciamento de uma mídia social.</li>
-                                        <li>Criação de até dois posts (artes) por semana. </li>
-                                        <li>Relatória mensal de desempenho.</li>
-                                        <li>Monitóramento diário dos perfis.</li>
-                                        <li>Relatório mensal de resultados das mídias socias.</li>
-                                        <li>Auxílio da fotografia.</li>
-                                        <li>Email Profissional.</li>
-                                        <li>Site Profissional.</li>
-                                        <li>Otimização de serviço de busca.</li>
-                                        <li>Criação de um vídeo Institucional mensal.</li>
-                                        <li>Planejamento de marketing de conteúdo.</li>
-                                    </ul>
-                                    <div class="price-value">
-                                        <span class="price-title">Preço <b>de</b></span>
-                                        <span class="price-amount"> R$ 1.520,00<span class="duration">por mês</span></span>
-                                    </div>
-                                    <div class="pricingTable-signup">
-                                        <a href="#">Veja Mais</a>
-                                    </div>
-                                </div>
+                            <div class="col-sm-12 col-md-12">
+                                <a class="lightbox" href="img/slide.jpg">
+                                    <img src="img/slide.jpg"> </a>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <a class="lightbox" href="img/slide.jpg">
+                                    <img src="img/slide.jpg"> </a>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <a class="lightbox" href="img/slide.jpg">
+                                    <img src="img/slide.jpg"> </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <a class="lightbox" href="img/slide.jpg">
+                                    <img src="img/slide.jpg"> </a>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <a class="lightbox" href="img/slide.jpg">
+                                    <img src="img/slide.jpg"> </a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="site-section bg-image2 overlay" id="contact-section" style="background-image: url('images/hero_1.jpg');">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center">
-                    <h2 class="section-title mb-3 text-white">Contact Us</h2>
-                </div>
+    </section>
+    <section class="contact " id="Contato">
+        <div class="container gallery-container">
+            <div class="title-body">
+                <i class="icon-birds-heart"></i>
+                <span>Confirmar Presença</span>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-7 mb-5">
-
-
-
-                    <form action="#" class="p-5 bg-white">
-
-                        <h2 class="h4 text-black mb-5">Contact Form</h2>
-
-                        <div class="row form-group">
-                            <div class="col-md-6 mb-3 mb-md-0">
-                                <label class="text-black" for="fname">First Name</label>
-                                <input type="text" id="fname" class="form-control rounded-0">
-                            </div>
-                            <div class="col-md-6">
-                                <label class="text-black" for="lname">Last Name</label>
-                                <input type="text" id="lname" class="form-control rounded-0">
-                            </div>
+            <div class="contact-form">
+                <div class="photo-left"><i class="icon icon-heart"></i> </div>
+                <div class="form">
+                    <form>
+                        <div class="row">
+                            <label class="control-label">Nome</label>
+                            <input class="form-control" type="text" name="">
                         </div>
-
-                        <div class="row form-group">
-
-                            <div class="col-md-12">
-                                <label class="text-black" for="email">Email</label>
-                                <input type="email" id="email" class="form-control rounded-0">
-                            </div>
+                        <div class="row">
+                            <label class="control-label">Telefone</label>
+                            <input class="form-control" type="text" name="">
                         </div>
-
-                        <div class="row form-group">
-
-                            <div class="col-md-12">
-                                <label class="text-black" for="subject">Subject</label>
-                                <input type="subject" id="subject" class="form-control rounded-0">
-                            </div>
+                        <div class="row">
+                            <label class="control-label">E-mail</label>
+                            <input class="form-control" type="text" name="">
                         </div>
-
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="text-black" for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
-                            </div>
+                        <div class="row">
+                            <input type="submit" class="btn" value="Enviar">
                         </div>
-
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
-                            </div>
-                        </div>
-
-
                     </form>
                 </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="footer py-5 text-center">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12">
-                    <p class="mb-0">
-                        <a href="#" class="p-3"><span class="icon-facebook"></span></a>
-                        <a href="#" class="p-3"><span class="icon-twitter"></span></a>
-                        <a href="#" class="p-3"><span class="icon-instagram"></span></a>
-                        <a href="#" class="p-3"><span class="icon-linkedin"></span></a>
-                        <a href="#" class="p-3"><span class="icon-pinterest"></span></a>
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="mb-0">
-                        <!--                           
-                            Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                         -->
-                    </p>
-                </div>
+                <div class="photo-right"><i class="icon icon-heart"></i> </div>
             </div>
         </div>
-    </div>
-    </div>
-    <!-- .site-wrap -->
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-
-
-    <script src="js/main.js"></script>
-
+    </section>
+    <section class="testimonial-Panel" id="Mensagem">
+        <div class="container gallery-container">
+            <div class="title-body">
+                <i class="icon-birds-heart"></i>
+                <span>Mensagem dos convidados</span>
+            </div>
+            <div class="container">
+                <form class="form form-convite">
+                    <div class="row">
+                        <div class="col-sm-4 form-group">
+                            <label class="control-label">Nome</label>
+                            <input class="form-control" type="text">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <label class="control-label">Descrição</label>
+                            <textarea class="form-control" type="text" rows=3></textarea>
+                        </div>
+                    </div>
+                    <footer class="paneç-footer">
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    </footer>
+                </form>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <h3 class="title">Williamson
+                                    <span class="post">- Web Developer</span>
+                                </h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+                                </p>
+                            </div>
+                            <div class="testimonial">
+                                <h3 class="title">Kristina
+                                    <span class="post">- Web Designer</span>
+                                </h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+                                </p>
+                            </div>
+                            <div class="testimonial">
+                                <h3 class="title">Steve Thomas
+                                    <span class="post">- Web Developer</span>
+                                </h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+                                </p>
+                            </div>
+                            <div class="testimonial">
+                                <h3 class="title">Steve Thomas
+                                    <span class="post">- Web Developer</span>
+                                </h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <h2 class="title-footer not-seletor">Se o amor bateu na nossa porta, que sorte a nossa</h2>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src='js/icon.js'></script>
+    <script src='js/icon-name.js'></script>
+    <script src='js/script.js'></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </body>
 
 </html>
